@@ -1,6 +1,6 @@
 [project]
 name = "phidata"
-version = "2.7.6"
+version = "2.7.7"
 description = "Build multi-modal Agents with memory, knowledge and tools."
 requires-python = ">=3.7"
 readme = "README.md"
@@ -9,6 +9,7 @@ authors = [
 ]
 
 dependencies = [
+  "docstring-parser",
   "gitpython",
   "httpx",
   "pydantic",
@@ -145,12 +146,14 @@ module = [
   "psycopg2.*",
   "pyarrow.*",
   "pycountry.*",
+  "pymongo.*",
   "pypdf.*",
   "pytz.*",
   "qdrant_client.*",
   "rapidocr_onnxruntime.*",
   "replicate.*",
   "requests.*",
+  "scrapegraph_py.*",
   "sentence_transformers.*",
   "serpapi.*",
   "setuptools.*",
