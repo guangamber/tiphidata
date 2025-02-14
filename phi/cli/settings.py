@@ -14,7 +14,7 @@ PHI_CLI_DIR: Path = Path.home().resolve().joinpath(".phi")
 
 class PhiCliSettings(BaseSettings):
     app_name: str = "phi"
-    app_version: str = metadata.version("phidata")
+    app_version: str = metadata.version("tiphidata")
 
     tmp_token_path: Path = PHI_CLI_DIR.joinpath("tmp_token")
     config_file_path: Path = PHI_CLI_DIR.joinpath("config.json")
@@ -23,7 +23,7 @@ class PhiCliSettings(BaseSettings):
     auth_token_cookie: str = "__phi_session"
     auth_token_header: str = "X-PHIDATA-AUTH-TOKEN"
 
-    api_runtime: str = "prd"
+    api_runtime: str = "dev"
     api_enabled: bool = True
     alpha_features: bool = False
     api_url: str = Field("https://api.phidata.com", validate_default=True)
