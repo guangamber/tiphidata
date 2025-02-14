@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "Build multi-modal Agents with memory, knowledge, tools and reasoning for security analysis."
 requires-python = ">=3.7"
 readme = "README.md"
-original_authors = [
+authors = [
   {name = "Ashpreet Bedi", email = "ashpreet@phidata.com"}
 ]
 
