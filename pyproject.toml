@@ -1,10 +1,10 @@
 [project]
-name = "phidata"
-version = "2.7.7"
-description = "Build multi-modal Agents with memory, knowledge and tools."
+name = "tiphidata"
+version = "0.0.1"
+description = "Build multi-modal Agents with memory, knowledge, tools and reasoning for security analysis."
 requires-python = ">=3.7"
 readme = "README.md"
-authors = [
+original_authors = [
   {name = "Ashpreet Bedi", email = "ashpreet@phidata.com"}
 ]
 
